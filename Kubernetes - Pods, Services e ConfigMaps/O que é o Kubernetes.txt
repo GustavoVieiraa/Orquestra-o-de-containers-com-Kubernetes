@@ -1,0 +1,16 @@
+Nesta aula, o instrutor Daniel Artine explica o que é o Kubernetes e como ele resolve problemas de escalabilidade de aplicações.
+
+Aqui estão os pontos principais abordados:
+
+  Problema de escalabilidade: Quando uma máquina atinge seu limite de capacidade, a aplicação pode ter problemas de desempenho ou até mesmo parar de funcionar.
+  
+  Escalabilidade vertical: Solução de adicionar mais poder computacional a uma mesma máquina (mais processamento, memória, armazenamento).
+  
+  Escalabilidade horizontal: Solução de adicionar mais máquinas para trabalhar em paralelo, dividindo a carga de trabalho.
+  
+  Kubernetes: Orquestrador de containers que gerencia um cluster (conjunto de máquinas trabalhando em conjunto) para distribuir a carga de trabalho e 
+  garantir a disponibilidade da aplicação.
+
+  Orquestração de containers: Capacidade do Kubernetes de criar, gerenciar e escalar containers automaticamente, reiniciando-os em caso de falha e adicionando novas máquinas ao cluster quando necessário.
+
+Em resumo, o Kubernetes é uma ferramenta poderosa para automatizar o gerenciamento de aplicações em containers, garantindo que elas sejam escaláveis, resilientes e fáceis de manter.
