@@ -1,0 +1,7 @@
+Nesta aula, o foco foi apresentar a arquitetura do Kubernetes e seus principais componentes. Foi explicado que o Kubernetes é mais do que um orquestrador de containers, oferecendo recursos como pods, ReplicaSets, Deployments e Volumes para resolver problemas de forma prática.
+
+Os pods são a menor unidade do Kubernetes, encapsulando containers. Os recursos permitem construir aplicações elaboradas, com balanceamento de carga e escalabilidade.
+
+Dentro de um cluster Kubernetes, há os nós master, responsáveis por coordenar e gerenciar o cluster, e os nodes, que executam as aplicações. Os componentes do master incluem a API, que recebe e executa comandos, o Controller Manager, que mantém o estado desejado, o Scheduler, que define onde os pods serão executados, e o ETCD, que armazena os dados do cluster. Nos nodes, o Kubelet executa os pods e o KubeProxy gerencia a comunicação entre os nodes.
+
+A API é crucial para gerenciar os recursos do cluster, permitindo criar, editar, ler e deletar componentes. A comunicação com a API é feita através da ferramenta Kubectl, que envia requisições de forma declarativa ou imperativa.
