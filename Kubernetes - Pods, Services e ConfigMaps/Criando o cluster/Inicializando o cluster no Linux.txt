@@ -1,0 +1,3 @@
+Nesta aula, aprendemos a instalar o Kubectl e inicializar um cluster Kubernetes no Linux.
+
+Foi demonstrado como o Kubernetes funciona de maneira similar nas três plataformas (Windows, Linux e GCP), já que ele precisa do Linux para funcionar. No Windows, ele utiliza uma virtualização embutida, e no GCP, o Linux já está presente.
