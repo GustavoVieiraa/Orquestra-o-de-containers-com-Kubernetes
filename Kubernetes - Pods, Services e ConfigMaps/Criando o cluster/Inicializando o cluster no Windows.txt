@@ -1,0 +1,22 @@
+Nesta aula, aprendemos como inicializar um cluster Kubernetes no Windows utilizando o Docker Desktop.
+
+Download da versão específica do Docker Desktop: 
+  É crucial baixar a versão 2.3.3.2 (datada de 21 de julho de 2020) para evitar problemas de compatibilidade. O link para download é fornecido.
+
+Instalação: 
+  O processo de instalação é padrão do Windows. Após a instalação, é recomendável reiniciar a máquina.
+
+Habilitar o Kubernetes no Docker Desktop: 
+  Após a reinicialização, vá em "Configurações > Kubernetes" e habilite a opção "Enable Kubernetes". 
+  Aplique as configurações para que o Docker crie o cluster.
+
+Verificação: 
+  Após a conclusão, uma bolinha verde indicará que o Kubernetes está em execução.
+
+Acesso via PowerShell: 
+  Utilize o PowerShell para interagir com o cluster. O kubectl já estará funcionando.
+
+Comandos:
+  Utilize o comando kubectl get nodes para verificar as informações do cluster, como o nó docker-desktop com status "pronto" e papel de "master".
+
+Em resumo, a aula demonstra como criar um cluster Kubernetes de forma simples no Windows, utilizando o Docker Desktop. É importante garantir que o Docker Desktop esteja sempre rodando para evitar erros.
