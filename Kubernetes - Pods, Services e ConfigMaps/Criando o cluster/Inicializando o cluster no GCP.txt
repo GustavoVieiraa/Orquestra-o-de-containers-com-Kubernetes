@@ -1,0 +1,3 @@
+Nesta aula, o instrutor Daniel Artine ensina como criar um cluster Kubernetes no Google Cloud Platform (GCP).
+
+Após a criação do cluster, o instrutor mostra como se conectar a ele usando o shell do Google e executar comandos kubectl para verificar os nós do cluster. Ele ressalta que o Kubernetes funciona da mesma forma no Windows, Linux e GCP, pois utiliza Linux em todas as plataformas.
